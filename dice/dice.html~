@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Dice</title>
+    <link rel="stylesheet" href="../src/style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1><a href="../index.html">Pen and Paper Arcade</a></h1>
+    </header>
+    <div class="flex-container">
+      <img class="flex-item" id="dice1" src="img/dice-empty.jpg" width="300" height="300" alt="Empty Dice">
+      <img class="flex-item" id="dice2" src="img/dice-empty.jpg" width="300" height="300" alt="Empty Dice">
+      <img class="flex-item" id="dice3" src="img/dice-empty.jpg" width="300" height="300"  alt="Empty Dice">
+    </div>
+    <label for="dice-no">How many dice:</label>
+    <select name="dice-no" id="dice-no">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select>
+    <button type="button" id="roll">Roll!</button>
+    <script src="dice.js"></script>
+    <footer><p>Aaron Potter, Battleship Source: https://github.com/LearnTeachCode/Battleship-JavaScript<p></footer>
+  </body>
+  
+</html>
